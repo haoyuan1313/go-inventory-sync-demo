@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/example/inventory-sync-demo/internal/inventory"
+	"github.com/haoyuan1313/go-inventory-sync-demo/internal/inventory"
 )
 
 func main() {
