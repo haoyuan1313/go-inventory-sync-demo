@@ -1,0 +1,1 @@
+# go-inventory-sync-demo
