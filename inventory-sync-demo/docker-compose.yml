@@ -1,0 +1,11 @@
+services:
+  inventory-demo:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - inventory_demo_data:/app/data
+    command: ["inventory-server", "-host", "0.0.0.0"]
+
+volumes:
+  inventory_demo_data:

@@ -1,0 +1,5 @@
+data/*.json
+*.log
+.DS_Store
+.idea/
+.vscode/
